@@ -28,11 +28,29 @@ body {
 	width: 100%;
 	opacity: 0.6;
 	height: 60vh;
-	background: #000000;
-background: -webkit-linear-gradient(left, #000000, #080104);
-background: -moz-linear-gradient(left, #000000, #080104);
-background: linear-gradient(to right, #000000, #080104);
+	background: #000;
 }
+
+.menu {
+	display: flex;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 2;
+	width: 100%;
+	background-color: gray;
+	opacity: 1;
+	object-fit: cover;
+}
+
+.logo {
+	background-image: url(../img/container-truck.svg) no-repeat;
+	background-size: 30px 30px;
+}
+
+/*.logo img {
+	width: 30px;
+}*/
 
 .main {
 	min-height: 40vh;
