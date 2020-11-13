@@ -19,7 +19,7 @@ body {
     left: 0;
     z-index: 1;
     width: 100%;
-    height: 100vh;
+    height: 50vh;
     object-fit: cover;
 }
 .effects {
@@ -29,7 +29,7 @@ body {
     left: 0;
     z-index: 2;
     width: 100%;
-    height: 100vh;
+    height: 50vh;
     background-color: rgba(0,0,0,0.6);
 }
 .video-bg__content {
@@ -37,9 +37,9 @@ body {
     color: #ffffff;
     font-size: 50px;
 }
-.main {
+/*.main {
     max-width: 1600px;
     margin: 0 auto;
     margin-top: 50px;
     padding: 0 20px;
-}
+}*/
