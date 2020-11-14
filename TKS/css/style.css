@@ -36,21 +36,19 @@ body {
 	position: absolute;
 	top: 0;
 	left: 0;
+	margin: 0;
 	z-index: 2;
 	width: 100%;
-	background-color: gray;
+	background-color: lightgray;
 	opacity: 1;
 	object-fit: cover;
 }
 
-.logo {
-	background-image: url(../img/container-truck.svg) no-repeat;
-	background-size: 30px 30px;
+.nav_item {
+	list-style: none;
+	display: flex;
 }
 
-/*.logo img {
-	width: 30px;
-}*/
 
 .main {
 	min-height: 40vh;
