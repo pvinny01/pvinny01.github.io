@@ -33,11 +33,13 @@ p {
 
 .header {
 	background-color: #2B7DED;
+	padding: 15px 15px;
 }
 
 .header_navigation {
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
 }
 
 .header_name {
@@ -47,6 +49,30 @@ p {
 }
 
 .header_logo {
-	background: url(../img/code.svg) no-repeat;
-	background-position: top center;
+	content: url(../img/code.svg);
 }
+
+.nav_list {
+	display: flex;
+	list-style: none;
+}
+
+.nav_item {
+	margin-left: 18px;
+
+}
+
+.nav_link {
+	text-decoration: none;
+	color: red;
+	font-weight: 500;
+}
+
+.nav_item.active {
+	color: #fff;
+}
+
+
+
+
+
