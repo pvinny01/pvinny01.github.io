@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Карточка товара</title>
+    <link href="css/style.css" rel="stylesheet">
+    <!-- <link href="css/outline.css" rel="stylesheet"> -->
+  </head>
+
+  <body>
+    <header class="main-header">
+      <nav class="main-header-nav">
+        <div class="container">
+          <div class="main-header-nav-wrapper">
+            <a class="main-header-logo" href="index.html">
+              <img src="img/logo.svg" width="98" height="20" alt="Логотип сайта">
+            </a>
+            <ul class="site-navigation">
+              <li class="site-navigation-item">
+                <a class="link-item" href="catalog.html">Каталог</a>
+              </li>
+              <li class="site-navigation-item">
+                <a class="link-item" href="#">Акции</a>
+              </li>
+              <li class="site-navigation-item">
+                <a class="link-item" href="#">Доставка</a>
+              </li>
+              <li class="site-navigation-item">
+                <a class="link-item" href="#">Контакты</a>
+              </li>
+            </ul>
+            <ul class="user-navigation">
+              <li class="user-navigation-item">
+                <a class="link-item" href="#">Поиск</a>
+              </li>
+              <li class="user-navigation-item">
+                <a class="link-item" href="#">Избранное</a>
+              </li>
+              <li class="user-navigation-item">
+                <a class="link-item" href="#">Корзина</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="container">
+        <ul class="breadcrumbs">
+          <li class="breadcrumbs-item">
+            <a class="breadcrumbs-link" href="index.html">Главная</a>
+          </li>
+          <li class="breadcrumbs-item">
+            <a class="breadcrumbs-link" href="catalog.html">Каталог</a>
+          </li>
+          <li class="breadcrumbs-item">
+            <a class="breadcrumbs-link" href="#">Мужские часы</a>
+          </li>
+          <li class="breadcrumbs-current breadcrumbs-item">Georg Jensen</li>
+        </ul>
+        <h1 class="visually-hidden">KULTE, 26 ММ</h1>
+      </div>
+      <section class="card">
+        <div class="container">
+          <div class="card-wrapper">
+            <div class="card-photos-column">
+              <p class="card-photo-full">
+                <img src="img/watch-fullsize.jpg" width="443" height="540" alt="Фото">
+              </p>
+              <ul class="card-photo-preview">
+                <li class="card-photo-preview-item">
+                  <img src="img/watches-2.jpg" width="127" height="121" alt="Фото 1">
+                </li>
+                <li class="card-photo-preview-item">
+                  <img src="img/watches-3.jpg" width="127" height="121" alt="Фото 2">
+                </li>
+                <li class="card-photo-preview-item">
+                  <img src="img/watches-4.jpg" width="127" height="121" alt="Фото 3">
+                </li>
+                <li class="card-photo-preview-item">
+                  <img src="img/watches-5.jpg" width="127" height="121" alt="Фото 4">
+                </li>
+              </ul>
+              <button class="prev-button" type="button"><span>Предыдущий</span></button>
+              <button class="next-button" type="button"><span>Следующий</span></button>
+            </div>
+            <div class="card-description-column">
+              <div class="card-description-header">
+                <div class="card-description-wrapper">
+                  <h2 class="card-description-title">KULTE, 26 ММ</h2>
+                  <button class="favorite" type="button"><span>Избранное</span></button>
+                </div>
+                <p class="card-description-price">12 700 ₽</p>
+              </div>
+              <ul class="bookmark-list">
+                <li class="bookmark-item">
+                  <a class="bookmark-item-link" href="#">Описание</a>
+                </li>
+                <li class="bookmark-item">
+                  <a class="bookmark-item-link" href="#">Технические характеристики</a>
+                </li>
+              </ul>
+              <p class="card-description-text">Наручные часы KULTE, разработанные датским дизайнером Хэннингом Коппелем, были выпущены в 1982 году. Они были встречены аплодисментами, а дизайн считался революционным.</p>
+              <p class="card-description-text">Общая эстетика минималистична, а острые, плавные линии корпуса стали легендарными. Механизм Swiss Made обеспечивает высокий уровень технических характеристик.</p>
+              <p class="card-description-text">Наручные часы KULTE — это образец датского дизайнерского наследия, история баланса и точности как внутри, так и снаружи.</p>
+              <a class="dark-button" href="#">В корзину</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="similar">
+        <div class="container">
+          <h2 class="similar-title">Вы смотрели</h2>
+          <ul class="catalog-list">
+            <li class="catalog-item">
+              <h3 class="catalog-item-title"><a class="catalog-item-link" href="#">Techne</a></h3>
+              <p class="catalog-item-price">15 700 ₽</p>
+              <img src="img/watch-card1.png" width="360" height="374" alt="Techne">
+            </li>
+            <li class="catalog-item">
+              <h3 class="catalog-item-title"><a class="catalog-item-link" href="#">Techne</a></h3>
+              <p class="catalog-item-price">15 700 ₽</p>
+              <img src="img/watch-card2.png" width="360" height="374" alt="Techne">
+            </li>
+            <li class="catalog-item">
+              <h3 class="catalog-item-title"><a class="catalog-item-link" href="#">Techne</a></h3>
+              <p class="catalog-item-price">22 700 ₽</p>
+              <img src="img/watch-card3.png" width="360" height="374" alt="Techne">
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <footer class="main-footer">
+      <div class="container">
+        <div class="main-footer-wrapper">
+          <section class="main-footer-column">
+            <p class="main-footer-link-wrapper">
+              <a class="main-footer-logo" href="index.html">
+                <img src="img/footer-logo.svg" width="130" height="35" alt="Логотип сайта">
+              </a>
+            </p>
+            <p class="main-footer-link-wrapper">
+              <a class="main-footer-link" href="tel:84994504797">8 (499) 450-47-97</a>
+            </p>
+            <p class="main-footer-link-wrapper">
+              <a class="main-footer-link" href="mailto:info@conquest.watch.ru">info@conquest.watch.ru</a>
+            </p>
+          </section>
+          <section class="main-footer-column">
+            <h2 class="main-footer-section-title">О компании</h2>
+            <ul class="about-list">
+              <li><a class="main-footer-link" href="#">Наши магазины</a></li>
+              <li><a class="main-footer-link" href="#">Вакансии</a></li>
+              <li><a class="main-footer-link" href="#">Сертификаты</a></li>
+              <li><a class="main-footer-link" href="#">Отзывы</a></li>
+            </ul>
+          </section>
+          <section class="main-footer-column">
+            <h2 class="main-footer-section-title">Покупателям</h2>
+            <ul class="info-list">
+              <li><a class="main-footer-link" href="#">Каталог товаров</a></li>
+              <li><a class="main-footer-link" href="#">Как заказать?</a></li>
+              <li><a class="main-footer-link" href="#">FAQ</a></li>
+              <li><a class="main-footer-link" href="#">Корпоративным клиентам</a></li>
+            </ul>
+          </section>
+          <section class="main-footer-column">
+            <h2 class="main-footer-section-title">Оплата и доставка</h2>
+            <ul class="delivery-list">
+              <li><a class="main-footer-link" href="#">Способы оплаты</a></li>
+              <li><a class="main-footer-link" href="#">Время доставки</a></li>
+              <li><a class="main-footer-link" href="#">Гарантии и ремонт</a></li>
+              <li><a class="main-footer-link" href="#">Возврат и компенсация</a></li>
+            </ul>
+          </section>
+        </div>
+      </div>
+    </footer>
+  </body>
+
+</html>
