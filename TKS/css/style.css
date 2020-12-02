@@ -14,13 +14,9 @@ h1,h2.h3,h4,h5,h6 {
 	margin: 0;
 }
 
-p {
-	margin: 0 0 10px;
-}
-
 .container {
 	width: 100%;
-	max-width: 1000px;
+	max-width: 1200px;
 	margin: 0 auto;
 }
 
@@ -29,9 +25,81 @@ p {
 
 .header {
 	background-color: #525252;
+	/*overflow: hidden;*/
+	/*padding: 25px 0;*/
 }
 
 .nav {
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
+}
+
+.logo {
+	padding-top: 7px;
+}
+
+.nav_list {
+	list-style: none;
+}
+
+.nav_item {
+	display: inline-block;
+	margin-right: 15px;
+}
+
+.nav_link {
+	color: #F3E8E8;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-weight: 600;
+}
+
+.phone_number {
+	color: #F3E8E8;
+}
+
+/*video_bg*********************************/
+
+.video_bg {
+    max-height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.video_bg:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+.video_bg-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 3;
+}
+
+h1.title {
+    margin: 0;
+    font-size: 36px;
+    color: red;
+    text-align: center;
+}
+
+p.offer {
+	color: white;
+	text-align: center;
 }
