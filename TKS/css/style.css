@@ -10,7 +10,7 @@ body {
 	box-sizing: border-box;
 }
 
-h1,h2.h3,h4,h5,h6 {
+h1,h2,h3,h4,h5,h6 {
 	margin: 0;
 }
 
@@ -25,8 +25,9 @@ h1,h2.h3,h4,h5,h6 {
 
 .header {
 	background-color: #525252;
-	/*overflow: hidden;*/
-	/*padding: 25px 0;*/
+	overflow: hidden;
+	padding: 15px 0;
+	border-bottom: 1px solid lightgray;
 }
 
 .nav {
@@ -72,7 +73,7 @@ h1,h2.h3,h4,h5,h6 {
     display: block;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, .7);
+    background-color: rgba(0, 0, 0, .5);
     position: absolute;
     top: 0;
     left: 0;
