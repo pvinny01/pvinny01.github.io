@@ -51,13 +51,23 @@ h1,h2,h3,h4,h5,h6 {
 
 .menu_list li {
 	display: inline-block;
-	margin-left: 10px;
+	margin-left: 15px;
 }
 
 .menu_list li a {
 	text-decoration: none;
 	color: #fff;
 }
+
+
+.menu_list li a:hover:after {
+	content: '';
+    display: block;
+    height: 2px;
+    background: #fff;
+  }
+  
+
 
 /*main*****************************************/
 
