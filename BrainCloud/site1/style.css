@@ -139,6 +139,7 @@ h1,h2,h3,h4,h5,h6 {
 	padding: 5px 20px;
 	display: inline-block;
 	transition: background 0.2s linear;
+	margin-bottom: 200px;
 }
 
 .btn:hover {
@@ -149,4 +150,36 @@ h1,h2,h3,h4,h5,h6 {
 	position: absolute;
 	bottom: 0;
 	right: 20px;
+}
+
+.contacts {
+	display: flex;
+	align-items: center;
+}
+
+.contacts a {
+	color: #fff;
+	font-weight: 500;
+	text-decoration: none;
+	margin-right: 20px;
+}
+
+.contacts a:hover {
+	text-decoration: underline;
+}
+
+.mail {
+	content: url(img/mail.svg);
+	margin-right: 5px;
+}
+
+.phone {
+	content: url(img/phone.svg);
+	margin-right: 5px;
+}
+
+.line {
+	background-color: #fff;
+	width: 100px;
+	height: 2px;
 }
