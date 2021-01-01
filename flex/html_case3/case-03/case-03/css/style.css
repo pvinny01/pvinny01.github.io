@@ -1,0 +1,534 @@
+body {
+  margin: 0;
+  padding: 0;
+  min-width: 1200px;
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 27px;
+  color: #444240;
+}
+
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0;
+  border: 0;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* list reset */
+.site-navigation,
+.user-navigation,
+.catalog-list,
+.social,
+.about-list,
+.info-list,
+.delivery-list,
+.breadcrumbs,
+.card-photo-preview,
+.bookmark-list,
+.pagination {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.breadcrumbs {
+  display: flex;
+}
+
+.breadcrumbs-item {
+  margin-right: 30px;
+  font-size: 14px;
+  line-height: 16px;
+  color: #444240;
+}
+
+.breadcrumbs-link {
+  font-size: 14px;
+  line-height: 16px;
+  color: #727a82;
+  text-decoration: none;
+}
+
+.main-title,
+.accessories-title {
+  font-family: "Playfair Display", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 43px;
+  color: #1b1a17;
+}
+
+.main-header-nav-wrapper {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.main-header-logo {
+  margin-right: 270px;
+  padding-top: 35px;
+  padding-bottom: 25px;
+}
+
+.site-navigation {
+  display: flex;
+  width: 490px;
+  flex-wrap: wrap;
+}
+
+.user-navigation {
+  display: flex;
+  margin-left: auto;
+  width: 230px;
+  flex-wrap: wrap;
+}
+
+.user-navigation-item {
+  padding: 30px 0 25px;
+  margin-left: 20px;
+}
+
+.site-navigation-item {
+  padding: 30px 10px 25px 0;
+  margin-right: 55px;
+}
+
+.link-item {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #555248;
+  text-decoration: none;
+}
+
+.promo {
+  padding-bottom: 90px;
+}
+
+.promo-wrapper {
+  display: flex;
+}
+
+.promo-text-column {
+  width: 440px;
+}
+
+.promo-img-column {
+  width: 730px;
+  display: flex;
+}
+
+.promo-title {
+  font-family: "Playfair Display", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 45px;
+  line-height: 60px;
+  color: #1b1a17;
+}
+
+.promo-sub-title {
+  font-family: "Playfair Display", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 40px;
+  color: #1b1a17;
+}
+
+.promo-price {
+  align-self: flex-start;
+  font-family: "Prata", sans-serif;
+  font-size: 16px;
+  line-height: 22px;
+  color: #1b1a17;
+}
+
+.promo-img {
+  align-self: center;
+}
+
+.promo-description {
+  align-self: flex-end;
+}
+
+.bestsellers {
+  padding-bottom: 90px;
+}
+
+.bestsellers-header {
+  display: flex;
+  justify-content: center;
+}
+
+.bestsellers-title {
+  margin-left: auto;
+}
+
+.bestsellers-title,
+.banner-title,
+.news-title {
+  font-family: "Playfair Display", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 43px;
+  color: #1b1a17;
+}
+
+.show-more {
+  align-self: flex-end;
+  margin-left: auto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #444240;
+}
+
+.catalog-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin-right: -30px;
+}
+
+.catalog-item {
+  display: flex;
+  flex-direction: column;
+  width: 370px;
+  margin-right: 30px;
+}
+
+.banner {
+  padding-bottom: 90px;
+}
+
+.banner-wrapper {
+  display: flex;
+}
+
+.banner-img-column {
+  width: 600px;
+}
+
+.banner-text-column {
+  width: 570px;
+}
+
+.news-wrapper {
+  display: flex;
+}
+
+.news-text-column {
+  width: 540px;
+}
+
+.news-img-column {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 560px;
+  margin-right: -10px;
+}
+
+.news-img {
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+
+.social {
+  display: flex;
+  flex-wrap: wrap;
+  width: 400px;
+}
+
+.main-footer {
+  padding-top: 65px;
+  padding-bottom: 65px;
+  background-color: #444240;
+}
+
+.main-footer-wrapper {
+  display: flex;
+}
+
+.main-footer-column {
+  width: 240px;
+}
+
+.main-footer-column:first-child {
+  margin-left: 80px;
+  margin-right: 30px;
+}
+
+.main-footer-link-wrapper {
+  margin: 0;
+}
+
+.main-footer-section-title {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.main-footer-link {
+  margin-top: 15px;
+  font-size: 12px;
+  line-height: 14px;
+  color: rgba(255, 255, 255, 0.75);
+  text-decoration: none;
+}
+
+.dark-button {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: #444240;
+}
+
+.light-button {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: #d4b098;
+}
+
+.link-details {
+  font-family: "Playfair Display", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 21px;
+  color: #1b1a17;
+  text-decoration: none;
+  margin-top: auto;
+}
+
+.catalog-item-link {
+  font-family: "Playfair Display", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: rgba(27, 26, 23, 0.82);
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.catalog-item-price {
+  font-family: "Prata", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  color: rgba(27, 26, 23, 0.82);
+}
+
+.similar {
+  padding-bottom: 80px;
+}
+
+.similar-title {
+  font-family: "Playfair Display", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 43px;
+  color: #1b1a17;
+}
+
+.card {
+  margin-top: 50px;
+  padding-bottom: 50px;
+}
+
+.card-wrapper {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.card-photos-column {
+  width: 570px;
+  margin-right: 30px;
+}
+
+.card-description-column {
+  width: 570px;
+  background-color: #fdfdfb;
+}
+
+.card-description-wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.card-photo-preview {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin-right: -15px;
+}
+
+.card-photo-preview-item {
+  width: 127px;
+  height: 121px;
+  margin-right: 15px;
+  margin-top: 20px;
+  background-color: rgba(100, 100, 100, 0.15);
+}
+
+.card-photo-full {
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.bookmark-list {
+  display: flex;
+}
+
+.bookmark-item {
+  padding: 20px 0;
+  margin-right: 40px;
+}
+
+.bookmark-item-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #444240;
+  text-decoration: none;
+}
+
+.card-description-title {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 38px;
+}
+
+.card-description-text {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 23px;
+}
+
+.card-description-property {
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.card-description-price {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  color: #686868;
+}
+
+.favorite {
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+.catalog-header-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.catalog-content-wrapper {
+  display: flex;
+}
+
+.filters-column {
+  width: 240px;
+  margin-right: 90px;
+}
+
+.catalog-column {
+  width: 840px;
+}
+
+.catalog-list-compact {
+  margin-right: -40px;
+}
+
+.catalog-item-compact,
+.catalog-item-promo {
+  width: 252px;
+  margin-right: 40px;
+  margin-bottom: 40px;
+}
+
+.catalog-item-promo {
+  background-color: #d4b098;
+}
+
+.catalog-item-promo-text {
+  font-family: "Playfair Display", sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.catalog-item-promo-percent {
+  font-size: 45px;
+}
+
+.catalog-item-img {
+  align-self: center;
+}
+
+.pagination {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  width: 400px;
+  margin-left: auto;
+}
+
+.pagination-item {
+  padding: 10px;
+  margin-left: 10px;
+}
+
+.pagination-link {
+  font-size: 14px;
+  line-height: 21px;
+  color: #b6b6b6;
+  text-decoration: none;
+}
