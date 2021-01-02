@@ -18,9 +18,14 @@ h1,h2,h3,h4,h5,h6 {
 
 .container {
 	width: 100%;
+<<<<<<< HEAD
 	max-width: 1030px;
 	margin: 0 auto;
 	padding: 0 15px;
+=======
+	max-width: 1000px;
+	margin: 0 auto;
+>>>>>>> 5ab5ac9c419449545c7114ffd12089a6b9ea3a4b
 }
 
 /*header*********************************/
@@ -104,8 +109,12 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .info {
+<<<<<<< HEAD
 	ax-width: 565px;
 	width: 100%;
+=======
+	width: 565px;
+>>>>>>> 5ab5ac9c419449545c7114ffd12089a6b9ea3a4b
 }
 
 .info h2 {
@@ -155,12 +164,19 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .contacts {
+<<<<<<< HEAD
 	max-width: 560px;
 	width: 100%;
 	display: flex;
 	align-items: center;
 	position: absolute;
 	left: 80px;
+=======
+	display: flex;
+	align-items: center;
+	position: absolute;
+	left: 280px;
+>>>>>>> 5ab5ac9c419449545c7114ffd12089a6b9ea3a4b
 	bottom: 40px;
 }
 
@@ -168,7 +184,11 @@ h1,h2,h3,h4,h5,h6 {
 	color: #fff;
 	font-weight: 500;
 	text-decoration: none;
+<<<<<<< HEAD
 	margin-right: 15px;
+=======
+	margin-right: 20px;
+>>>>>>> 5ab5ac9c419449545c7114ffd12089a6b9ea3a4b
 }
 
 .contacts a:hover {
@@ -189,6 +209,7 @@ h1,h2,h3,h4,h5,h6 {
 	background-color: #fff;
 	width: 100px;
 	height: 2px;
+<<<<<<< HEAD
 }
 
 .form {
@@ -261,3 +282,6 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 
+=======
+}
+>>>>>>> 5ab5ac9c419449545c7114ffd12089a6b9ea3a4b
