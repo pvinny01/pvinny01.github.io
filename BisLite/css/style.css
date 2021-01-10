@@ -1,5 +1,6 @@
 body {
 	box-sizing: border-box;
+	margin: 0;
 }
 
 *, *::before, *::after {
@@ -25,12 +26,13 @@ li {
 
 .container {
 	max-width: 1030px;
-	/*margin: 0 auto;*/
+	margin: 0 auto;
 	padding: 0 15px;
 }
 
 .header {
 	background-color: #E8EBF1;
+	border-bottom: 1px solid rgba (0,0,0,.15);
 }
 
 .menu {
@@ -38,6 +40,7 @@ li {
 	justify-content: space-between;
 	align-items: center;
 	padding: 15px 0;
+	margin: 0;
 }
 
 .logo a {
@@ -106,9 +109,10 @@ li {
 
 .dropdown_list {
 	position: absolute;
-	width: 200px;
+	width: 205px;
 	background-color: #fff;
 	border-bottom: solid 5px #2AACC8;
+	display: block;
 }
 
 ul.dropdown_list {
@@ -123,4 +127,22 @@ ul.dropdown_list {
 	border-top: 1px solid #E7E7E7;
 }
 
+ul.dropdown_list a {
+	text-transform: none;
+	font-weight: 400;
+}
+
+ul.dropdown_list a:hover {
+	color: #2AACC8;
+}
+
+.slider {
+	background-color: #81E4ED;
+	padding: 20px 0 40px;
+}
+
+.slider_item {
+	background-image: url(../img/clip.jpg);
+	min-height: 440px;
+}
 
