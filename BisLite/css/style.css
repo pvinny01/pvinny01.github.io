@@ -1,6 +1,7 @@
 body {
 	box-sizing: border-box;
 	margin: 0;
+	font-family: 'Lato', sans-serif;
 }
 
 *, *::before, *::after {
@@ -46,8 +47,6 @@ li {
 .logo a {
 	color: #2AACC8;
 	font-size: 50px;
-	/*line-height: 20px;*/
-	font-family: 'Lato', sans-serif;
 	font-weight: 400;
 	color: #81E4ED;
 }
@@ -64,10 +63,6 @@ li {
 .nav li {
 	margin-left: 0;
 }
-
-/*.nav li:first-child {
-	margin-left: 0;
-}*/
 
 .nav li a {
 	font-family: 'arial', sans-serif;
@@ -141,8 +136,24 @@ ul.dropdown_list a:hover {
 	padding: 20px 0 40px;
 }
 
+.slider_title {
+	font-size: 50px;
+	color: #fff;
+	margin-left: 60px;
+	width: 300px;
+	font-weight: 700;
+	padding-top: 90px;
+}
+
 .slider_item {
 	background-image: url(../img/clip.jpg);
 	min-height: 440px;
+	background-position: top center;
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 
+.slick-dots li button {
+	width: 14px;
+	height: 14px;
+}
