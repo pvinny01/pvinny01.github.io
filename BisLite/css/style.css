@@ -243,3 +243,7 @@ ul.dropdown_list a:hover {
 	background: url(../img/slider/cursor.svg) no-repeat;
 	background-position: left center;
 }
+
+.works_items img {
+	padding: 10px;
+}
