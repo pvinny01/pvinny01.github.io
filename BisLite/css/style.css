@@ -237,13 +237,19 @@ ul.dropdown_list a:hover {
 	font-family: 'arial', sans-serif;
 	font-size: 15px;
 	font-weight: 700;
-	/*line-height: 10px;	*/
 	text-transform: uppercase;
 	padding: 20px 0 20px 45px;
 	background: url(../img/slider/cursor.svg) no-repeat;
 	background-position: left center;
 }
 
+.works_items {
+	padding: 20px 0 40px;
+	border-top: 1px solid #707070;
+	border-bottom: 1px solid #707070;
+}
+
 .works_items img {
 	padding: 10px;
 }
+
