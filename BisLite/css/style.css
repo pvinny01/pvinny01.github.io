@@ -307,6 +307,8 @@ ul.dropdown_list a:hover {
 .clients_box {
 	display: flex;
 	justify-content: space-between;
+	margin-top: 20px;
+	margin-bottom: 25px;
 }
 
 
@@ -318,7 +320,8 @@ ul.dropdown_list a:hover {
 	width: 480px;
 }
 
-.testimonials_title {
+.testimonials_title, 
+.logos_title {
 	font-size: 15px;
 	font-weight: 900;
 	line-height: 20px;
@@ -326,11 +329,26 @@ ul.dropdown_list a:hover {
 	text-transform: uppercase;
 }
 
+.testimonials_title {
+	background: url(../img/clients/comments.svg) no-repeat left center;
+	padding-left: 40px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.logos_title {
+	background: url(../img/clients/clients.svg) no-repeat left center;
+	padding-left: 40px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
 .testimonials_text {
 	font-size: 14px;
 	font-weight: 400;
 	line-height: 24px;
 	font-family: 'arial' sans-serif;
+	margin-bottom: 10px;
 }
 
 .testimonials_author {
@@ -341,4 +359,39 @@ ul.dropdown_list a:hover {
 	font-style: italic;
 }
 
+/*download******************************/
 
+.download_box {
+	background-color: #E8FCFE;
+	border: 1px solid #81E4ED;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.download_text {
+	font-family: 'arial' sans-serif;
+	font-size: 16px;
+	line-height: 26px;
+	width: 600px;
+	padding-top: 35px;
+	padding-bottom: 14px;
+	color: #363636;
+}
+
+.download_button button {
+	font-family: 'arial' sans-serif;
+	font-size: 18px;
+	font-weight: 700;
+	text-transform: uppercase;
+	padding: 10px 20px 10px 45px;
+	background-color: #7BE0EA;
+	border: 1px solid #2AACC8;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.download_button img {
+	display: inline-block;
+	margin-right: 20px;
+}
