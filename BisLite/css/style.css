@@ -531,11 +531,45 @@ ul.dropdown_list a:hover {
 		width: 50%;
 		margin-bottom: 20px;
 	}
+
+	.client_logos {
+		padding-left: 15px;
+	}
+
+	.download_button {
+		padding-left: 15px;
+	}
 }
 
 @media (max-width: 900px){
 	.item {
 		padding-right: 15px;
+	}
+}
+
+@media (max-width: 760px) {
+	.clients_box {
+		flex-direction: column;
+		align-items: center;
+	}
+	.testimonials {
+		width: 100%;
+	}
+	
+	.download_box {
+		flex-direction: column;
+	}
+	.download_text {
+		width: 100%;
+	}
+}
+
+@media (max-width: 670px){
+	.client_logos {
+		margin: 0 auto;
+	}
+	.logos_img img {
+		max-width: 100%;
 	}
 }
 
@@ -552,6 +586,12 @@ ul.dropdown_list a:hover {
 		margin-left: 20px;
 		font-weight: 700;
 		padding-top: 90px;
+	}
+}
+
+@media (min-width: 960px){
+	.nav > ul {
+		display: block;
 	}
 }
 
