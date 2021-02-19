@@ -562,6 +562,22 @@ ul.dropdown_list a:hover {
 	.download_text {
 		width: 100%;
 	}
+	.download_button {
+		padding-bottom: 10px;
+	}
+
+	.footer_box {
+		flex-wrap: wrap;
+	}
+
+	.footer_connect {
+		width: 100%;
+	}
+
+	.footer_connect .title {
+		margin-top: 10px;
+	}
+
 }
 
 @media (max-width: 670px){
@@ -570,6 +586,13 @@ ul.dropdown_list a:hover {
 	}
 	.logos_img img {
 		max-width: 100%;
+	}
+	.footer_about {
+		margin-bottom: 10px;
+		width: 100%;
+	}
+	.footer_copyright {
+		padding-right: 10px;
 	}
 }
 
