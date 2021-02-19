@@ -582,10 +582,13 @@ ul.dropdown_list a:hover {
 
 @media (max-width: 670px){
 	.client_logos {
-		margin: 0 auto;
+		display: flex;
+		flex-wrap: wrap;
 	}
+
+
 	.logos_img img {
-		max-width: 100%;
+		width: 90%;
 	}
 	.footer_about {
 		margin-bottom: 10px;
