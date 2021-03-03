@@ -25,3 +25,51 @@ nav {
 	border-right: 2px dotted #000;
 	padding-right: 28px;
 }
+
+.subheader {
+	height: 84px;
+	background-color: rgba(0,0,0,0.5);
+}
+
+.subheader .subheaader_logo {
+	max-width: 100%;
+	display: block;
+	margin-top: 16px;
+}
+
+.subheader .subheader_official {
+	font-size: 13px;
+	opacity: 0.5;
+	color: #fff;
+}
+
+.subheader .subheader_call {
+	color: #fff;
+	font-size: 12px;
+	font-weight: 300;
+	margin-top: 23px;
+	text-align: right;
+}
+
+.subheader .subheader_phone {
+	display: block;
+	color: #fff;
+	font-size: 22px;
+	font-weight: 400;
+	line-height: 23px;
+	text-align: right;
+}
+
+.subheader .subheader_btn {
+	font-size: 14px;
+	color: #fff;
+	font-weight: 400;
+	text-transform: uppercase;
+	width: 172px;
+	height: 46px;
+	border-radius: 8px;
+	border: none;
+	background-color: #5ec1d9;
+	margin-top: 20px;
+ }
+
