@@ -133,9 +133,14 @@ header {
     text-transform: uppercase;
 }
 
+.reasons {
+	padding-top: 50px;
+}
+
 .reasons .reasons_block {
 	display: flex;
 	margin-top: 20px;
+	margin-bottom: 30px;
 }
 
 .reasons .reasons_logo {
