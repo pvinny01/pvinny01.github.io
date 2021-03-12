@@ -357,3 +357,27 @@ header {
 	}
 
 }
+
+.towns {
+	padding-top: 49px;
+	height: 717px;
+	background: #000 url('../img/bg/map.jpg') center center/cover no-repeat;
+	.title, .subtitle {
+		color: #fff;
+	}
+	.label {
+		background-color: #fff;
+		color: #070716;
+	}
+	.subtitle {
+		margin-bottom: 450px;
+	}
+	.look {
+		display: block;
+		text-align: center;
+		font-size: 15px;
+		text-transform: uppercase;
+		line-height: 68px;
+		color: $blue;
+	}
+}
