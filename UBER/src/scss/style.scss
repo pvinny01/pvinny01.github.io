@@ -388,10 +388,45 @@ header {
 
 .footer {
 	display: flex;
+	justify-content: space-between;
+	padding-top: 52px;
+	border-bottom: 8px solid #000;
 }
 
 .footer_social {
 	.social_item {
+		display: inline-block;
+		margin-right: 9px;
+		background-color: #000;
+	}
+	.fab {
+		color: #fff;
+	}
+
+}
+
+.footer_nav {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.footer_menu {
+	.menu_item {
+		display: inline-block;
+		margin-left: 45px;
+	}
+}
+
+.footer_submenu {
+	.submenu_item {
+		display: inline-block;
+		margin-left: 23px;
+	}
+}
+
+.footer_app {
+	.app_item {
 		display: inline-block;
 	}
 }
