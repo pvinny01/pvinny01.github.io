@@ -13,6 +13,10 @@ $blue: #1EACC7;
   font-family: 'Roboto', sans-serif;
 }
 
+ul {
+	list-style-type: none;
+}
+
 nav {
   position: fixed;
   z-index: 2;
@@ -379,5 +383,15 @@ header {
 		text-transform: uppercase;
 		line-height: 68px;
 		color: $blue;
+	}
+}
+
+.footer {
+	display: flex;
+}
+
+.footer_social {
+	.social_item {
+		display: inline-block;
 	}
 }
