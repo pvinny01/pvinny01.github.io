@@ -398,6 +398,8 @@ header {
 		display: inline-block;
 		margin-right: 9px;
 		background-color: #000;
+		padding: 5px 12px;
+		border-radius: 100%;
 	}
 	.fab {
 		color: #fff;
@@ -412,9 +414,26 @@ header {
 }
 
 .footer_menu {
+	ul {
+		position: relative;
+	}
+	ul:before {
+		position: absolute;
+		content: '';
+		display: block;
+		width: 300px;
+		height: 4px;
+		background-color: #1FBAD6;
+		bottom: 55px;
+		right: 25px;
+	}
 	.menu_item {
 		display: inline-block;
 		margin-left: 45px;
+		color: #070716;
+		text-transform: uppercase;
+		font-size: 15px;
+		font-weight: 300;
 	}
 }
 
@@ -422,6 +441,19 @@ header {
 	.submenu_item {
 		display: inline-block;
 		margin-left: 23px;
+		color: #999999;
+		font-weight: 300;
+		font-size: 11px;
+		text-transform: uppercase;
+	}
+}
+
+.footer_lang {
+	a {
+		color: #1FBAD6;
+		text-transform: uppercase;
+		font-size: 11px;
+		font-weight: 400;
 	}
 }
 
