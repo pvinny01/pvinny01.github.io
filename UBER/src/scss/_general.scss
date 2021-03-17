@@ -416,15 +416,17 @@ header {
 		bottom: 55px;
 		right: 30px;
 	}
-	.menu_item {
+	.footer_item {
 		display: inline-block;
 		margin-left: 45px;
-		color: #070716;
 		text-transform: uppercase;
-		font-size: 15px;
-		font-weight: 300;
 		&:first-child {
 			margin-left: 0;
+		}
+		.menu_link {
+			color: #070716;
+			font-size: 15px;
+			font-weight: 300;
 		}
 	}
 }
@@ -433,12 +435,14 @@ header {
 	.submenu_item {
 		display: inline-block;
 		margin-left: 23px;
-		color: #999999;
-		font-weight: 300;
-		font-size: 11px;
 		text-transform: uppercase;
 		&:first-child {
 			margin-left: 0;
+		}
+		.submenu_link {
+			color: #999999;
+			font-weight: 300;
+			font-size: 11px;
 		}
 	}
 }
