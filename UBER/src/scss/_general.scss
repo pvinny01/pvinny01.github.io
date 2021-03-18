@@ -33,6 +33,10 @@ nav {
   }
 }
 
+.burger {
+	display: none;
+}
+
 header {
   position: relative;
 }
@@ -461,4 +465,8 @@ header {
 	.app_item {
 		display: inline-block;
 	}
+}
+
+.xs-visible {
+	display: none;
 }

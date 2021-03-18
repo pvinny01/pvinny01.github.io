@@ -2,6 +2,11 @@
   font-family: 'Roboto', sans-serif;
 }
 
+a:hover {
+	color: #fff;
+	text-decoration: none;
+}
+
 @import 'variables';
 @import 'mixins';
 @import 'general';
