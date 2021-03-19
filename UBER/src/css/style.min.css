@@ -608,5 +608,35 @@ header {
     margin: 0 auto;
     display: block;
   }
+
+  .promo {
+    min-height: 400px;
+  }
+  .promo_title {
+    margin-top: 40px;
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: 700;
+    padding: 0 24px;
+  }
+  .promo_subtitle {
+    margin-top: 40px;
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 700;
+  }
+  .promo_text {
+    display: none;
+  }
+  .promo_btn {
+    width: 200px;
+    height: 50px;
+    font-size: 16px;
+    margin-top: 92px;
+  }
+
+  .menu {
+    width: 85%;
+  }
 }
 /*# sourceMappingURL=style.min.css.map */
