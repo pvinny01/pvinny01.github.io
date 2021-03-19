@@ -292,7 +292,7 @@ header {
 
 .choice {
 	position: relative;
-	.block_1 {
+	&_block1 {
 		background-color: #000;
 		height: 500px;
 		padding-top: 60px;
@@ -304,7 +304,7 @@ header {
 			color: #fff;
 		}
 	}
-	.block_2 {
+	&_block2 {
 		background-color: $blue;
 		height: 400px;
 		text-align: center;
@@ -314,10 +314,13 @@ header {
 		color: $text_color;
 		padding-top: 200px;
 	}
-	.uber {
+	&_uber {
 		position: absolute;
 		top: 30%;
 		left: 25%;
+		img {
+			max-width: 100%;
+		}
 	}
 }
 
