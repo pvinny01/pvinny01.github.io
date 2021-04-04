@@ -1,0 +1,100 @@
+$orange: #E04504;
+
+body {
+    font-family: 'Oranienbaum', serif;
+    color: #000;
+}
+
+@font-face {
+    font-family: Aquarelle;
+    src: url(../fonts/4285.ttf);
+}
+
+.title {
+    position: relative;
+    font-size: 48px;
+    font-weight: 500;
+    letter-spacing: 7px;
+    margin-bottom: 30px;
+}
+
+.title_shadow {
+    position: relative;
+    top: 56px;
+    font-family: Aquarelle;
+    font-size: 72px;
+    font-weight: 100;
+    color: $orange;
+}
+
+.header_title {
+    font-family: Aquarelle;
+    font-size: 95px;
+    font-weight: 100;
+    line-height: 150px;
+}
+
+.header_text {
+    font-size: 22px;
+}
+
+.header {
+    height: 675px;
+    background: url(../img/header_bg.jpg) center top no-repeat;
+}
+
+.logo {
+    display: inline-block;
+    padding-top: 40px;
+    margin-bottom: 120px;
+}
+
+.nav {
+    &_item {
+        display: inline-block;
+        margin-left: 50px;
+        padding-top: 40px;
+    }
+    &_item:first-child {
+        margin-left: 0;
+    }
+    &_link {
+        color: #000;
+    }
+}
+
+.features {
+    &_item {
+        width: 215px;
+        height: 190px;
+        border-radius: 2px;
+        background-color: $orange;
+    }
+    &_icon {
+        display: block;
+        margin: 0 auto;
+        padding-top: 40px;
+        margin-bottom: 20px;
+    }
+    &_text {
+        text-align: center;
+        font-size: 18px;
+        color: #F2F3F4;
+    }
+}
+
+.safety ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.safety ul li {
+    font-size: 18px;
+    line-height: 22px;
+    padding-bottom: 5px;
+}
+
+.safety .mask {
+    background: url(../img/mask.jpg) center center no-repeat;
+}
+
