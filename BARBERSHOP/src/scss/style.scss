@@ -98,3 +98,135 @@ body {
     background: url(../img/mask.jpg) center center no-repeat;
 }
 
+
+.service {
+    &_men {
+        position: relative;
+    }
+    &_women {
+        position: relative;
+    }
+    &_male {
+        position: absolute;
+        top: 0;
+        left: 40%;
+        background-color: rgb(240, 229, 229);
+        li {
+            border-bottom: #000 1px solid;
+            border-left: solid 1px #000;
+            padding: 5px;
+        }
+        }
+    li {
+        font-size: 20px;
+    }
+    ul {
+        padding-left: 0;
+        list-style-type: none;
+    }
+    &_male, &_female {
+        display: none;
+    }
+}
+
+.service_men {
+    transition: display 5s;
+}
+
+.service_men:hover {
+    .service_male {
+        display: block;
+    }
+}
+
+.service_women:hover {
+    cursor: pointer;
+    .service_female {
+        display: block;
+    }
+}
+
+.service_male {
+    li:nth-child(1) {
+        span {
+            padding-left: 200px;
+        }
+    }
+    li:nth-child(2) {
+        span {
+            padding-left: 270px;
+        }
+    }
+    li:nth-child(3) {
+        span {
+            padding-left: 170px;
+        }
+    }
+    li:nth-child(4) {
+        span {
+            padding-left: 230px;
+        }
+    }
+    li:nth-child(5) {
+        span {
+            padding-left: 130px;
+        }
+    }
+    li:nth-child(6) {
+        span {
+            padding-left: 170px;
+        }
+    }
+    li:nth-child(7) {
+        span {
+            padding-left: 140px;
+        }
+    }
+    li:nth-child(8) {
+        span {
+            padding-left: 130px;
+        }
+    }
+    li:nth-child(9) {
+        span {
+            padding-left: 120px;
+        }
+    }
+    li:nth-child(10) {
+        span {
+            padding-left: 30px;
+        }
+    }
+}
+
+.masters {
+    &_text {
+        padding-top: 100px;
+        padding-left: 28px;
+    }
+    &_name {
+        font-size: 33px;
+        line-height: 60px;
+    }
+    &_skill {
+        font-size: 20px;
+        line-height: 40px;
+    }
+    &_stage {
+        font-size: 18px;
+        line-height: 50px;
+    }
+    &_phone {
+        font-size: 18px;
+        padding-left: 40px;
+        background: url(../icons/phone_master.png) no-repeat 0 2px;
+    }
+}
+
+.slick-prev:before {
+    content: url(../icons/prev.png);
+}
+
+.slick-next:before {
+    content: url(../icons/next.png);
+}

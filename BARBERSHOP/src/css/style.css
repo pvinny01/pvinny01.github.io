@@ -95,3 +95,127 @@ body {
 .safety .mask {
   background: url(../img/mask.jpg) center center no-repeat;
 }
+
+.service_men {
+  position: relative;
+}
+
+.service_women {
+  position: relative;
+}
+
+.service_male {
+  position: absolute;
+  top: 0;
+  left: 40%;
+  background-color: #f0e5e5;
+}
+
+.service_male li {
+  border-bottom: #000 1px solid;
+  border-left: solid 1px #000;
+  padding: 5px;
+}
+
+.service li {
+  font-size: 20px;
+}
+
+.service ul {
+  padding-left: 0;
+  list-style-type: none;
+}
+
+.service_male, .service_female {
+  display: none;
+}
+
+.service_men {
+  transition: display 5s;
+}
+
+.service_men:hover .service_male {
+  display: block;
+}
+
+.service_women:hover {
+  cursor: pointer;
+}
+
+.service_women:hover .service_female {
+  display: block;
+}
+
+.service_male li:nth-child(1) span {
+  padding-left: 200px;
+}
+
+.service_male li:nth-child(2) span {
+  padding-left: 270px;
+}
+
+.service_male li:nth-child(3) span {
+  padding-left: 170px;
+}
+
+.service_male li:nth-child(4) span {
+  padding-left: 230px;
+}
+
+.service_male li:nth-child(5) span {
+  padding-left: 130px;
+}
+
+.service_male li:nth-child(6) span {
+  padding-left: 170px;
+}
+
+.service_male li:nth-child(7) span {
+  padding-left: 140px;
+}
+
+.service_male li:nth-child(8) span {
+  padding-left: 130px;
+}
+
+.service_male li:nth-child(9) span {
+  padding-left: 120px;
+}
+
+.service_male li:nth-child(10) span {
+  padding-left: 30px;
+}
+
+.masters_text {
+  padding-top: 100px;
+  padding-left: 28px;
+}
+
+.masters_name {
+  font-size: 33px;
+  line-height: 60px;
+}
+
+.masters_skill {
+  font-size: 20px;
+  line-height: 40px;
+}
+
+.masters_stage {
+  font-size: 18px;
+  line-height: 50px;
+}
+
+.masters_phone {
+  font-size: 18px;
+  padding-left: 40px;
+  background: url(../icons/phone_master.png) no-repeat 0 2px;
+}
+
+.slick-prev:before {
+  content: url(../icons/prev.png);
+}
+
+.slick-next:before {
+  content: url(../icons/next.png);
+}
