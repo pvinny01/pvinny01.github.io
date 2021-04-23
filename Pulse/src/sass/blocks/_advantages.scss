@@ -1,32 +1,49 @@
 .advantages {
-    padding: 70px 0 80px 0;
-    background-color: #f6f6f6;
-    &__wrapper {
-        margin-top: 65px;
-        display: flex;
-        justify-content: space-between;
-    }
-    &__item {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        max-width: 238px;
-    }
-    &__subtitle {
-        margin-top: 38px;
-        color: #0d0d0d;
-        font-size: 18px;
-        font-weight: 700;
-    }
-    &__descr {
-        margin-top: 26px;
-        color: #0d0d0d;
-        font-size: 14px;
-        font-weight: 300;
+    &_title {
         text-align: center;
-        a {
-            color: #ff0000;
+        text-transform: uppercase;
+        margin-bottom: 60px;
+    }
+    &_subtitle {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+    &_text {
+        font-size: 14px;
+    }
+    &_items {
+        display: flex;
+    }
+    &_item1 {
+        width: 33.3%;
+        padding-left: 45px;
+        padding-right: 45px;
+        text-align: center;
+        padding-top: 120px;
+        background: url(../icons/advantages/cup.png) no-repeat top center;
+    }
+    &_item2 {
+        width: 33.3%;
+        padding-left: 45px;
+        padding-right: 45px;
+        text-align: center;
+        padding-top: 120px;
+        background: url(../icons/advantages/heart.png) no-repeat top center;
+    }
+    &_item3 {
+        width: 33.3%;
+        padding-left: 45px;
+        padding-right: 45px;
+        text-align: center;
+        padding-top: 120px;
+        background: url(../icons/advantages/shoe.png) no-repeat top center;
+        .reference {
+            text-transform: uppercase;
+            color: $main-color;
             text-decoration: underline;
+        }
+        .reference:hover {
+            text-decoration: none;
         }
     }
 }

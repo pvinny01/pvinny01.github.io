@@ -1,101 +1,94 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Pulse</title>
     <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
     <link rel="stylesheet" href="css/font.css">
     <link rel="stylesheet" href="css/style.min.css">
+    <title>Pulse</title>
 </head>
 <body>
-    <div class="promo">
+    <header class="header">
         <div class="container">
-            <header class="header">
-                <a href="#" class="header__logo">
-                    <img src="icons/logo.png" alt="logo">
-                </a>
-                <div class="header__official">
-                    Официальный представитель
-                    <span>Garmin, Polar, Suunto</span>
+            <div class="header_top">
+                <div class="header_logo">
+                    <a href="#"><img src="icons/logo.png" alt="logo"></a>
                 </div>
-                <div class="header__contacts">
-                    <a href="tel:+74999228974" class="header__phone">+7 (499) 922-89-74</a>
-                    <button class="button">заказать звонок</button>
+                <div class="header_partner">
+                    Официальный представитель <br> <span class="partners">Garmin, Polar, Suunto</span> 
                 </div>
-            </header>
-
-            <div class="promo__wrapper">
-                <h1 class="promo__header">Подбор пульсометра</h1>
-                <h2 class="promo__subheader">с учётом Вашего уровня подготовки</h2>
-
-                <div class="promo__icons">
-                    <div class="promo__icon">
-                        <img src="icons/main_screen/timer.png" alt="timer">
-                        Время подбора:
-                        10 минут
+                <div class="header_phone">
+                    <div>
+                        <a href="tel:74999228974" class="header_number">+7 (499) 922-89-74</a>
                     </div>
-                    <div class="promo__icon">
-                        <img src="icons/main_screen/hand-cart.png" alt="hand-cart">
-                        Бесплатная
-                        доставка
+                    <div>
+                        <button class="header_button">Заказать звонок</button>
                     </div>
-                    <div class="promo__icon">
-                        <img src="icons/main_screen/messages.png" alt="messages">
-                        Ответим
-                        на все вопросы
-                    </div>
-                </div>
-
-                <button class="button button_main">заказать кОНСУЛЬТАЦИЮ</button>
-                <div class="promo__link">
-                    или
-                    <a href="#">ПЕРЕЙТИ В КАТАЛОГ</a>
                 </div>
             </div>
-            
+            <div>
+                <h1 class="header_promo">ПОДБОР ПУЛЬСОМЕТРА <br> <span class="little">С УЧЁТОМ ВАШЕГО УРОВНЯ ПОДГОТОВКИ</span> </h1>
+            </div>
+            <div class="header_advantage">
+                <div class="time">
+                    Время подбора: <br>10 минут
+                </div>
+                <div class="free">
+                    Бесплатная <br>доставка
+                </div>
+                <div class="answers">
+                    Ответы <br>на все вопросы
+                </div>
+            </div>
+            <div class="header_consult">
+                <div>
+                    <button class="btn">Заказать консультацию</button>
+                </div>
+                <div class="cat">
+                    или <span><a class="ref" href="#">перейти в каталог</a></span> 
+                </div>
+            </div>
         </div>
-    </div>
+    </header>
 
-    <div class="advantages">
+    <section class="advantages">
         <div class="container">
-            <h2 class="title">НАШИ ПРЕИМУЩЕСТВА</h2>
-            <div class="advantages__wrapper">
-                <div class="advantages__item">
-                    <img src="icons/advantages/cup.png" alt="cup" class="advantages__icon">
-                    <div class="advantages__subtitle">
+            <div class="advantages_title">
+                <h2>НАШИ ПРЕИМУЩЕСТВА</h2>
+            </div>
+            <div class="advantages_items">
+                <div class="advantages_item1">
+                    <div class="advantages_subtitle">
                         Делимся опытом
                     </div>
-                    <div class="advantages__descr">
+                    <div class="advantages_text">
                         Наши сотрудники всегда готовы поделиться своим опытом, 
                         так как сами бегают полумарафоны, переплыли Босфор, готовятся к соревнованиям по триатлону!
                     </div>
                 </div>
-                <div class="advantages__item">
-                    <img src="icons/advantages/heart.png" alt="heart" class="advantages__icon">
-                    <div class="advantages__subtitle">
+                <div class="advantages_item2">
+                    <div class="advantages_subtitle">
                         Заботимся о здоровье
                     </div>
-                    <div class="advantages__descr">
+                    <div class="advantages_text">
                         Мы работаем для того, 
-                        чтобы Ваши занятия спортом шли на пользу Вашему здоровью и были в радость Вам и Вашим близким!           
+                        чтобы Ваши занятия спортом шли на пользу Вашему здоровью и были в радость Вам и Вашим близким!
                     </div>
                 </div>
-                <div class="advantages__item">
-                    <img src="icons/advantages/shoe.png" alt="shoe" class="advantages__icon">
-                    <div class="advantages__subtitle">
+                <div class="advantages_item3">
+                    <div class="advantages_subtitle">
                         Учим бегать
                     </div>
-                    <div class="advantages__descr">
+                    <div class="advantages_text">
                         Помогаем с обучением 
-                        правильной технике бега!<br>
-                        Дружим с крупнейшей школой бега в России - 
-                        <a href="#">I LOVE RUNNING.</a>
+                        правильной технике бега! 
+                        Дружим с крупнейшей школой бега в России<span><a href="#" class="reference">- I LOVE RUNNING.</a> </span> 
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 </body>
 </html>
