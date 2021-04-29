@@ -1,0 +1,29 @@
+
+* {
+    font-family: 'Museo Sans Cyrl', sans-serif;
+}
+.container {
+    position: relative;
+    max-width: 950px;
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 30px;
+    text-align: center;
+}
+
+button, 
+button:active, 
+button:focus {
+    outline: none;
+}
+
+$main-color: #c70101;
+
+@import 'blocks/header';
+@import 'blocks/advantages';
+@import 'blocks/consult';
+@import 'blocks/forms';
+@import 'blocks/slider';
+@import 'blocks/catalog'
